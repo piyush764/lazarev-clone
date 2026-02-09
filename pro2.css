@@ -87,7 +87,7 @@ body{
 
 /* red boxes */
 .bottom-div{
-  background: red;
+ /* background: red;*/
   padding: 10px 14px;
   min-width: 120px;
 }
@@ -98,7 +98,14 @@ body{
   font-weight: 600;
 }
 nav button{
-  
+  background-color: rgb(0, 255, 255);
+  display: flex;
+  align-items: center;
+}
+nav button:hover{
+  background-color: rgb(1, 214, 1);
+  color: rgb(228, 0, 0);
+  border-color: #24c762;
 }
 
 /* ================= PAGE 1 ================= */
@@ -122,7 +129,7 @@ nav button{
   line-height: 1.1;
 }
 
-#page1 p{
+#page1 p{ 
   margin-top: 1.5vw;
   font-size: 1vw;
   opacity: 0.8;
