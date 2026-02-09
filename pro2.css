@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  color: white;
+}
+
+html{
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: black;
+}
+
+/* ================= NAVBAR ================= */
+
+#nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2vw 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+#nav h1{
+  font-size: 1.8vw;
+}
+
+.nav-part2{
+  display: flex;
+  gap: 3vw;
+}
+
+.nav-part2 h4{
+  font-size: 0.9vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#nav button{
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background: white;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ================= DROPDOWN ================= */
+
+#nav-bottom{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100%;
+  width: 90%;
+  background: black;
+  border-bottom: 2px solid #dadada;
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease;
+  padding: 0 5vw;
+}
+
+/* hover trigger */
+#nav:hover #nav-bottom{
+  height: 260px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+/* container for red boxes */
+.bottom-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+/* red boxes */
+.bottom-div{
+  background: red;
+  padding: 10px 14px;
+  min-width: 120px;
+}
+
+.bottom-div h5{
+  font-size: 0.75vw;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+/* ================= PAGE 1 ================= */
+
+#page1{
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5vw;
+}
+
+#page1 h1{
+  font-size: 4vw;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+#page1 p{
+  margin-top: 1.5vw;
+  font-size: 1vw;
+  opacity: 0.8;
+}
+
+#page1-something{
+  display: flex;
+  gap: 10px;
+  margin-top: 2vw;
+}
+
+#page1-something h4{
+  font-size: 0.9vw;
+  font-weight: 400;
+  text-transform: lowercase;
+  padding: 6px 14px;
+  border: 1px solid rgb(87, 86, 86);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#page1-something h4:hover{
+  background-color: rgb(36, 199, 98);
+  color: black;
+}
+
+/* ================= PAGE 2 ================= */
+
+#page2{
+  height: 100vh;
+  width: 100vw;
+  background: black;
+}
+
+
+
+
+
