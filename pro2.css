@@ -98,15 +98,17 @@ body{
   font-weight: 600;
 }
 nav button{
-  background-color: rgb(0, 255, 255);
+  background-color: rgb(0, 169, 39);
   display: flex;
   align-items: center;
+  
+
 }
-nav button:hover{
+/*nav button:hover{
   background-color: rgb(1, 214, 1);
-  color: rgb(228, 0, 0);
-  border-color: #24c762;
-}
+  color:rgb(0, 0, 0);
+  transition: 0.3s ease;
+}*/
 
 /* ================= PAGE 1 ================= */
 
@@ -164,8 +166,6 @@ nav button:hover{
   width: 100vw;
   background: black;
 }
-
-
 
 
 
