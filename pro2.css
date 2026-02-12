@@ -18,6 +18,7 @@ body{
 /* ================= NAVBAR ================= */
 
 #nav{
+  /* background-color: aqua;*/
   position: fixed;
   top: 0;
   width: 100%;
@@ -26,12 +27,13 @@ body{
   align-items: flex-start;
   justify-content: space-between;
   z-index: 999;
+  height:12vh;
 }
 
 #nav h1{
   font-size: 1.8vw;
-  display: flex;
-  align-items: center;
+ /* display: flex;
+  align-items: center;*/
  }
 
 .nav-part2{
@@ -39,7 +41,8 @@ body{
   gap: 3vw;
   align-items: flex-start;
   padding: 1vh 0;
-  
+  position: relative;
+  z-index: 10;
 }
 
 .nav-part2 h4{
@@ -47,42 +50,51 @@ body{
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
+  margin-bottom: 2.6vw;
+}
+.nav-part2 h5 {
+  margin-bottom: 1vw;
+  background-color: red;
+  overflow: hidden;
+  opacity: 0;
+   
+}
+.nav-part2 h5 span{
+  font-size: 0.74vw;
+  font-weight: 400;
+  display: inline-block;
+  
 }
 
 #nav button{
   padding: 8px 16px;
   border-radius: 20px;
   border: none;
-  background: white;
-  color: black;
+  background: rgba(5, 152, 0, 0.822);
+  color: rgb(233, 228, 228);
   font-weight: 600;
   cursor: pointer;
+  z-index: 9;
 }
-
-/* ================= DROPDOWN ================= */
 
 #nav-bottom{
+  width: 79px;;
+  height: 0vh;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+ /* background-color: red;*/
+  z-index: 9;
+  border-bottom: 1p solid #fff;
   top: 100%;
-  width: 90%;
-  background: black;
-  border-bottom: 2px solid #dadada;
-  overflow: hidden;
-  height: 0;
-  transition: 0.5s ease;
-  padding: 0 5vw;
 }
 
-/* hover trigger */
+/* hover trigger 
 #nav:hover #nav-bottom{
   height: 260px;
   padding-top: 2vw;
   padding-bottom: 2vw;
 }
 
-/* container for red boxes */
+/* container for red boxes 
 .bottom-container{
   display: flex;
   justify-content: space-between;
@@ -91,28 +103,25 @@ body{
 }
 
 /* red boxes */
-.bottom-div{
- /* background: red;*/
+/*.bottom-div{
+  background: rgb(0, 0, 0);
   padding: 10px 14px;
   min-width: 120px;
-}
+}*/
 
-.bottom-div h5{
+/*.bottom-div h5{
   font-size: 0.75vw;
   margin: 5px 0;
   font-weight: 600;
-}
-/*nav button{
-  background-color: rgb(0, 169, 39);
-  display: flex;
-  align-items: center;*\
-  
-
-}
-/*nav button:hover{
-  background-color: rgb(1, 214, 1);
-  color:rgb(0, 0, 0);
-  transition: 0.3s ease;
+}*/
+/*
+#nav-bottom{
+  width: 79px;;
+  height: 26vh;
+  position: absolute;
+  background-color: red;
+  z-index: 9;
+  border-bottom: 1p solid #fff;
 }*/
 
 /* ================= PAGE 1 ================= */
