@@ -23,7 +23,7 @@ body{
   width: 100%;
   padding: 2vw 5vw;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   z-index: 999;
 }
@@ -37,11 +37,13 @@ body{
 .nav-part2{
   display: flex;
   gap: 3vw;
+  align-items: flex-start;
+  padding: 1vh 0;
   
 }
 
 .nav-part2 h4{
-  font-size: 0.9vw;
+  font-size: 0.73vw;
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
