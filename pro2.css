@@ -76,23 +76,23 @@ body{
   cursor: pointer;
   z-index: 9;
 }
-
+/*
 #nav-bottom{
   width: 79px;;
   height: 0vh;
   position: absolute;
- /* background-color: red;*/
+  background-color: red;
   z-index: 9;
   border-bottom: 1p solid #fff;
   top: 100%;
-}
+}*/
 
 /* hover trigger 
 #nav:hover #nav-bottom{
   height: 260px;
   padding-top: 2vw;
   padding-bottom: 2vw;
-}
+}*/
 
 /* container for red boxes 
 .bottom-container{
@@ -101,7 +101,7 @@ body{
   align-items: flex-start;
   width: 100%;
 }
-
+*/
 /* red boxes */
 /*.bottom-div{
   background: rgb(0, 0, 0);
@@ -114,15 +114,16 @@ body{
   margin: 5px 0;
   font-weight: 600;
 }*/
-/*
+
 #nav-bottom{
-  width: 79px;;
-  height: 26vh;
+  width: 9990px;;
+  height: 6vh;
   position: absolute;
-  background-color: red;
+  /*background-color: red;*/
   z-index: 9;
-  border-bottom: 1p solid #fff;
-}*/
+  border-bottom: 1px solid #ededed;
+  margin-right: 1px;
+}
 
 /* ================= PAGE 1 ================= */
 
