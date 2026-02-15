@@ -1,135 +1,98 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: monospace;
-  color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
 }
 
-html{
-  font-size: 16px;
-  scroll-behavior: smooth;
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
 
-body{
-  background: black;
+nav {
+    position: fixed;
+    /* background-color: rgb(0, 255, 68); */
+    display: flex;
+    align-items: flex-start;
+    height: 12vh;
+    width: 100%;
+    padding: 2vw 10.4vw;
+    justify-content: space-between;
+    background-color: #111;
+    z-index: 10;
 }
 
-/* ================= NAVBAR ================= */
-
-#nav{
-  background-color: aqua;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 2vw 5vw;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  z-index: 999;
-  height: 10vh;
+nav h1 {
+    font-size: 1.6vw;
 }
 
-#nav h1{
-  font-size: 1.8vw;
- /* display: flex;
-  align-items: center;*/
- }
-
-.nav-part2{
-  display: flex;
-  gap: 3vw;
-  align-items: flex-start;
-  padding: 1vh 0;
-  position: relative;
-  z-index: 10;
+.nav-part2 {
+    display: flex;
+    gap: 2vw;
+    align-items: flex-start;
+    padding: 1vh 0;
+    position: relative;
+    z-index: 10;
 }
 
-.nav-part2 h4{
-  font-size: 0.73vw;
-  text-transform: uppercase;
-  font-weight: 600;
-  cursor: pointer;
-  margin-bottom: 2.6vw;
+.nav-part2 h4 {
+    font-size: 0.73vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2.6vw;
 }
+
 .nav-part2 h5 {
-  margin-bottom: 1vw;
-  background-color: red;
-  overflow: hidden;
-  opacity: 1;
-   
-}
-.nav-part2 h5 span{
-  font-size: 0.74vw;
-  font-weight: 400;
-  display: inline-block;
-  
-}
+    margin-bottom: 0.8vw;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+  }
+
 .nav-elem:hover h5{
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+  }  
+
+
+.nav-part2 h5 span {
+    font-size: 0.77vw;
+    font-weight: 400;
+    transform: translateY(25px);
+    display: inline-block;
 }
 
-#nav button{
-  padding: 8px 16px;
-  border-radius: 20px;
-  border: none;
-  background: rgba(5, 152, 0, 0.822);
-  color: rgb(233, 228, 228);
-  font-weight: 600;
-  cursor: pointer;
-  z-index: 9;
-}
-/*
-#nav-bottom{
-  width: 79px;;
-  height: 0vh;
-  position: absolute;
-  background-color: red;
-  z-index: 9;
-  border-bottom: 1p solid #fff;
-  top: 100%;
-}*/
-
-/* hover trigger 
-#nav:hover #nav-bottom{
-  height: 260px;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
-}*/
-
-/* container for red boxes 
-.bottom-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-}
-*/
-/* red boxes */
-/*.bottom-div{
-  background: rgb(0, 0, 0);
-  padding: 10px 14px;
-  min-width: 120px;
-}*/
-
-/*.bottom-div h5{
-  font-size: 0.75vw;
-  margin: 5px 0;
-  font-weight: 600;
-}*/
-
-#nav-bottom{
-  width: 91%;
-  height: 200%;
-  position: absolute;
-  /*background-color: red;*/
-  z-index: 9;
-  border-bottom: 1px solid #ededed;
-  margin-right: 1px;
-  top: 100%;
+nav button {
+    background-color: #0BA34E;
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    font-size: 0.85vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
 }
 
+nav button svg {
+    height: 0.8vw;
+    margin-left: 1.6vw;
+}
+
+#nav-bottom {
+    width: 79%;
+    height: 0vh;
+    position: absolute;
+    /* background-color: red; */
+    top: 100%;
+   /* background-color: #111;*/
+    z-index: 9;
+    border-bottom: 1px solid #fff;
+} 
 /* ================= PAGE 1 ================= */
 
 #page1{
