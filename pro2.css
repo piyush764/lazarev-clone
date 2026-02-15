@@ -27,7 +27,7 @@ body{
   align-items: flex-start;
   justify-content: space-between;
   z-index: 999;
-  height:12vh;
+  height: 12vh;
 }
 
 #nav h1{
@@ -56,7 +56,7 @@ body{
   margin-bottom: 1vw;
   background-color: red;
   overflow: hidden;
-  opacity: 0;
+  opacity: 1;
    
 }
 .nav-part2 h5 span{
@@ -64,6 +64,10 @@ body{
   font-weight: 400;
   display: inline-block;
   
+}
+.nav-elem:hover h5{
+  opacity: 1;
+  transform: translateY(0);
 }
 
 #nav button{
