@@ -149,14 +149,15 @@ nav button svg {
   margin-top: 10vh;
   position: absolute;
   bottom: 19%;
+
 }
 #moving-div .move{
-  display: flex;
-  align-items: center;
-  gap:2vw
+  display:inline-block
+ 
 }
 #moving-div .move img{
   height: 1vw;
+  margin: 0.1vw;
    
 }
 /* ================= PAGE 2 ================= */
