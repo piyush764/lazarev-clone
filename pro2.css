@@ -50,13 +50,11 @@ nav h1 {
     display: none;
     overflow: hidden;
   }
-
+/*
 .nav-elem:hover h5{
     opacity: 1;
     transform: translateY(0);
-  }  
-
-
+  }  */
 .nav-part2 h5 span {
     font-size: 0.77vw;
     font-weight: 400;
@@ -68,12 +66,14 @@ nav button {
     background-color: #0BA34E;
     display: flex;
     align-items: center;
-    padding: 14px 20px;
+    padding: 8px 3px;
     font-size: 0.85vw;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 50px;
     border: none;
+    margin-right: 40px;
+    z-index: 10;
 }
 
 nav button svg {
@@ -144,7 +144,21 @@ nav button svg {
   border: none;
   padding:2px;
 }
-
+#moving-div {
+  background-color: red;
+  margin-top: 10vh;
+  position: absolute;
+  bottom: 19%;
+}
+#moving-div .move{
+  display: flex;
+  align-items: center;
+  gap:2vw
+}
+#moving-div .move img{
+  height: 1vw;
+   
+}
 /* ================= PAGE 2 ================= */
 
 #page2{
