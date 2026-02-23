@@ -145,18 +145,20 @@ nav button svg {
   padding:2px;
 }
 #moving-div {
-  background-color: red;
+ /* background-color: red;*/
   margin-top: 10vh;
   position: absolute;
   bottom: 19%;
-
+  display:flex;
 }
 #moving-div .move{
-  display:inline-block
- 
+  display:flex;
+  gap:2vw;
+  align-items: center;
+
 }
 #moving-div .move img{
-  height: 1vw;
+  height: 1.2vw;
   margin: 0.1vw;
    
 }
