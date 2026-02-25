@@ -153,7 +153,7 @@ nav button svg {
   background-color: red;
   margin-top: 10vh;
   position: absolute;
-  bottom: 19%;
+  bottom: 15%;
   /*display:flex;
   width:44%*/
   white-space:nowrap;
@@ -162,13 +162,12 @@ nav button svg {
 }
 #moving-div .move{
   display:inline-block;
- 
  /* align-items: center;*/
 
 }
 #moving-div .move img{
   height: 1.2vw;
-  margin: 0.1vw;
+  margin:0.6vw;
 }
 @keyframes ani{
   0%{
