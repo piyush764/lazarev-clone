@@ -50,7 +50,10 @@ nav.addEventListener("mouseenter", function(){
     })
 
     t1.to(".nav-part2 h5", {
-        display: "block"
+        opacity: 1,
+        visibility: "visible",
+        duration: 0.1
+       /* display: "block"*/
     })
 
     t1.from(".nav-part2 h5 span", {
@@ -66,14 +69,17 @@ nav.addEventListener("mouseleave", function(){
 
     t1.to(".nav-part2 h5 span", {
         y: 25,
-        duration :0.15,
+     /*   duration :0.15,
         stagger: {
             amount: 0.05
-        }
+        }*/
     })
 
     t1.to(".nav-part2 h5", {
-        display: "none"
+     /*   display: "none"*/
+        opacity: 0,
+        visibility: "hidden",
+        duration: 0.1
     })
 
     t1.to("nav", {
