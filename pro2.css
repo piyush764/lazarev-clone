@@ -47,8 +47,12 @@ nav h1 {
 }
 
 .nav-part2 h5 {
-   opacity:0;
-   visibility: hidden;
+    opacity:0;
+    visibility: hidden;
+    font-size: 1.1vw;        /* bigger */
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    margin-bottom: 0.8vw;
    /* margin-bottom: 1vw;
     display: none;
     overflow: hidden;*/
@@ -59,7 +63,8 @@ nav h1 {
     transform: translateY(0);
   }  */
 .nav-part2 h5 span {
-    font-size: 0.77vw;
+    font-size: 1vw;
+    line-height: 1.1vw;
     font-weight: 400;
     transform: translateY(25px);
     display: inline-block;
@@ -86,7 +91,7 @@ nav button svg {
 
 #nav-bottom {
     width: 79%;
-    height: 0vh;
+    height: 9vh;
     position: absolute;
     /* background-color: red; */
     top: 100%;
@@ -244,7 +249,15 @@ nav button svg {
   height: 100vh;
   width: 100vw;
   background: black;
+  padding: 2vh 10.4vw;
+  position: relative;
 }
+#page2-left{
+  height: 100%;
+  width: 50%;
+  background-color: #333;
+}
+
 
 
 
