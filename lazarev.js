@@ -88,7 +88,24 @@ nav.addEventListener("mouseleave", function(){
     })
 })
 
+var rightElems = document.querySelectorAll(".right-elem")
 
+rightElems.forEach(function(elem){
+    elem.addEventListener("mouseenter",function(){
+        console.log(elem)
+
+        gsap.to(elem.childNodes[3],{
+            opacity:1.,
+            scale:1
+        })
+    })
+     elem.addEventListener("mouseleave",function(){
+         gsap.to(elem.childNodes[3],{
+            opacity:1.,
+            scale:0
+        })
+    })
+})
 
 
 

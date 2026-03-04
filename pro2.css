@@ -307,6 +307,7 @@ nav button svg {
   opacity: 0;
   object-fit: cover;
   position: absolute;
+  scale: 0;
 }
 
 
