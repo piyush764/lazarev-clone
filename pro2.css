@@ -290,9 +290,10 @@ nav button svg {
 }
 .right-elem{
   position: relative;
-  background-color: #ff0000;
+ /* background-color: #ff0000;*/
   padding-top: 3vw;
-  padding-bottom: 4vw;
+  padding-bottom: 4.5vw;
+  border-bottom: 1px solid#333;
 }
 .right-elem h2{
   font-size:1.3vw;
@@ -303,6 +304,7 @@ nav button svg {
   height: 5vw;
   width:5vw ;
   border-radius:50%;
+  opacity: 0;
   object-fit: cover;
   position: absolute;
 }
