@@ -310,13 +310,42 @@ nav button svg {
 }
 
 #page3{
-  height: 100vh;
+  height: 140vh;
   width:100% ;
-  background-color: #000;
+  background-color: #111;
   position: relative;
   background-image:  url("./20260305_1354_Image\ Generation_remix_01kjyhfxn3fens812npkt61kj7.png ");
-  background-size:contain;
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
+.page3-center{
+  background-color: red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.page3-center .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.3vw;
+  border-radius: 50%;
+  background-color: #fff;
+  
+}
+.page3-center .icon i{
+  color: #000;
+  font-size:2.8vw ;
+}
+.page3-center h5{
+  font-size: 1.5vw;
+  border-radius: 50px;
+}
+
+
 
 
 
