@@ -309,6 +309,16 @@ nav button svg {
   scale: 0;
 }
 
+#page3{
+  height: 100vh;
+  width:100% ;
+  background-color: #000;
+  position: relative;
+  background-image:  url("./20260305_1354_Image\ Generation_remix_01kjyhfxn3fens812npkt61kj7.png ");
+  background-size:contain;
+}
+
+
 
 
 
