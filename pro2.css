@@ -322,10 +322,11 @@ nav button svg {
 
 }
 .page3-center{
-  background-color: red;
+  /*background-color: red;*/
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 1vw;
 }
 .page3-center .icon{
   display: flex;
@@ -340,9 +341,23 @@ nav button svg {
   color: #000;
   font-size:2.8vw ;
 }
+
 .page3-center h5{
-  font-size: 1.5vw;
+  font-size: 1.2vw;
+  background-color: #fff;
+  color: #000;
   border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 1vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0;
+  transition: all ease 0.5s;
+  transform: translateY(10%);
+  text-transform: uppercase;
+}
+.page3-center:hover h5{
+  opacity: 1;
 }
 
 
