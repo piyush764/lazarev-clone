@@ -45,7 +45,7 @@ nav.addEventListener("mouseenter", function(){
     let t1 = gsap.timeline()
 
     t1.to("nav", {
-        height: "21vh",
+        height: "35vh",
         duration: 0.3
     })
 

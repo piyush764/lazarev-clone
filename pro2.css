@@ -37,13 +37,14 @@ nav h1 {
     padding: 1vh 0;
     position: relative;
     z-index: 10;
+    padding-bottom: 2vh;
 }
 
 .nav-part2 h4 {
     font-size: 0.73vw;
     text-transform: uppercase;
     font-weight: 600;
-    margin-bottom: 2.6vw;
+    margin-bottom: 1vw;
 }
 
 .nav-part2 h5 {
@@ -94,14 +95,12 @@ nav button svg {
     height: 9vh;
     position: absolute;
     /* background-color: red; */
-    top: 100%;
+    top: 55%;
     left:10.4vw;
     border-bottom: 1px solid #fff;
     overflow:hidden;
     transition: height 0.3s ease;
    /* z-index: 9;*/
-
-    border-bottom: 1px solid #fff;
 } 
 /* ================= PAGE 1 ================= */
 
