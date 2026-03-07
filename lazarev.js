@@ -1,44 +1,3 @@
-/*var nav = document.querySelector("nav")
-
-nav.addEventListener("mouseenter",function(){
-    let t1 = gsap.timeline()
-    
-    t1.to("#nav-bottom",{
-        height:"21vh",
-        duration:0.3
-    })
-    t1.to(".nav-part2 h5 ",{
-    display:"block"
-    })
-    t1.tfrom(".nav-part2 h5 span",{
-        y:25,
-    /*duration:0.3;
-        stagger:{
-        amount:0.2
-    }
-    })
-})
-nav.addEventListener("mouseleave",function(){
-    let t1 = gsap.timeline()
-    
-    t1.to(".nav-part2 h5 span",{
-    y:25,
-    /*duration:0.3;
-    stagger:{
-        amount:0.2
-    }
-    })
-
-    t1.to(".nav-part2 h5", {
-        display: "none"
-    })
-
-    t1.to("#nav-bottom", {
-        height: "0vh"
-    })
-})*/
-
-
 var nav = document.querySelector("nav")
 
 nav.addEventListener("mouseenter", function(){
@@ -120,12 +79,20 @@ page3Center.addEventListener("click",function(){
     video.play()
     gsap.to(video,{
         transform:"scaleX(1) scaleY(1)",
-        opacity:1
+        opacity:1,
+        borderRadius:0
 
     })
 })
 video.addEventListener("click",function(){
     video.pause()
+     gsap.to(video,{
+        transform:"scaleX(0.7) scaleY(0)",
+        opacity:0,
+        borderRadius:"30px"
+
+    })
+
 })
 
 
