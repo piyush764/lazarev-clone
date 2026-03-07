@@ -346,18 +346,28 @@ nav button svg {
   font-size: 1.2vw;
   background-color: #fff;
   color: #000;
-  border-radius: 50px;
+  border-radius:50px;
   padding: 10px 20px;
   margin-top: 1vw;
   text-transform: uppercase;
   font-weight: 700;
   opacity: 0;
-  transition: all ease 0.5s;
+  transition: all ease 0.8s;
   transform: translateY(10%);
   text-transform: uppercase;
 }
 .page3-center:hover h5{
   opacity: 1;
+}
+#page3 video{
+  height: 100%;
+  width: 100% ;
+  position: absolute;
+  object-fit: cover;
+  transform: scaleX(0.7) scaleY(0);
+  opacity: 0;
+  border-radius: 30px;
+  z-index: 999;
 }
 
 
