@@ -95,6 +95,12 @@ video.addEventListener("click",function(){
 
 })
 
+//page 4 
+var sections = document.querySelectorAll(".section")
+sections.forEach(function(elem){
+    console.log(elem)
+})
+
 
 
 
