@@ -405,6 +405,21 @@ nav button svg {
   height: 80vh;
   width: 70%;
   background-color:blanchedalmond;
+  position: relative;
+}
+.sec-right img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
+.sec-right video{
+  height:100 ;
+  width: 100;
+  position: absolute;
+  top: 0;
+  left:0;
+  object-fit: cover;
+  opacity: 0;
 }
 
 
