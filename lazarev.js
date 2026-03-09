@@ -115,8 +115,12 @@ sections.forEach(function(elem){
 
     elem.addEventListener("mouseenter", function(){
         video.style.opacity = 1;
+        video.muted =true; 
         video.play();
     });
+    elem.addEventListener("click",function(){
+        video.muted = false;
+    })
 
     elem.addEventListener("mouseleave", function(){
         video.style.opacity = 0;
