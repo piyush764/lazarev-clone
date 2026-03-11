@@ -461,6 +461,28 @@ nav button svg {
   display: inline-block;
 
 }
+#page5-content{
+  width: 100%;
+ /* background-color: red;*/
+  margin-top: 5vh;
+  padding: 5vh 0;
+  border-top: 2px solid #fff;
+}
+#page5-content h1{
+  font-size: 3.5vw;
+}
+#page5-content #flex{
+  display: flex;
+  margin-top: 4vh;
+  gap: 15px;
+}
+#page5-content #flex h4{
+  border-radius: 50px;
+  border:1px solid #fff;
+  padding: 8px 20px;
+  font-weight: 400;
+  font-size: 1vw;
+}
 
 
 
