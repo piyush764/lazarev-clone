@@ -452,6 +452,15 @@ nav button svg {
 #page5-right{
   width: 70%;
 }
-#page5 -
+#page5-right>p{
+  font-size: 2.1vw;
+}
+#page5-right>p span{
+  width: 10vw;
+  background-color: red;
+  display: inline-block;
+
+}
+
 
 
