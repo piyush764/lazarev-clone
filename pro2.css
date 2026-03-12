@@ -470,6 +470,7 @@ nav button svg {
 }
 #page5-content h1{
   font-size: 3.5vw;
+  
 }
 #page5-content #flex{
   display: flex;
@@ -483,6 +484,21 @@ nav button svg {
   font-weight: 400;
   font-size: 1vw;
 }
+.page5-elem{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /*background-color: red;*/
+}
+.page5-elem p{
+  width: 60%;
+  font-size: 1.3vw;
+}
+.page5-elem h3{
+  font-size: 1.7vw;
+  font-weight: 400;
+}
+
 
 
 
