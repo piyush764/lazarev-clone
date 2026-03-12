@@ -494,8 +494,9 @@ nav button svg {
   padding-bottom: 8vh;
   position: relative;
   overflow: hidden;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
   /*margin-bottom: 2vh;*/
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #333;
 }
 .page5-elem p{
   width: 60%;
@@ -536,6 +537,10 @@ nav button svg {
   transform: translateY(0);
   opacity: 1;
 }
+.page5-elem:hover{
+  border-top: 2px solid ;
+}
+
 
 
 
