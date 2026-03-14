@@ -540,6 +540,14 @@ nav button svg {
 .page5-elem:hover{
   border-top: 2px solid ;
 }
+#page6{
+  height: 100vh;
+  width: 100%;
+  background-color:#111;
+}
+summary ::marker{
+  
+}
 
 
 
