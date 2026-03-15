@@ -23,6 +23,7 @@ nav {
     align-items: flex-start;
     justify-content: space-between;
     padding: 2vw 10.4vw;
+    background-color: #111;
     z-index: 10;
 }
 
@@ -91,17 +92,21 @@ nav button svg {
 }
 
 #nav-bottom {
-    width: 79%;
-    height: 9vh;
+    width: calc(100% - 20.8vw);
+    /*height: 9vh;*/
     position: absolute;
     /* background-color: red; */
-    top: 55%;
+    top:100%;
     left:10.4vw;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid white;
     overflow:hidden;
     transition: height 0.3s ease;
    /* z-index: 9;*/
 } 
+
+nav:hover #nav-bottom{
+  height: 0.01vh;
+}
 /* ================= PAGE 1 ================= */
 
 #page1{
@@ -447,6 +452,8 @@ nav button svg {
   font-size: 1vw;
   border-radius: 50px;
   border: none;
+  position: sticky;
+  top: 15%;
 
 }
 #page5-right{
@@ -466,7 +473,7 @@ nav button svg {
  /* background-color: red;*/
   margin-top: 5vh;
   padding: 5vh 0;
-  border-top: 2px solid #fff;
+  border-top: 2px solid #333;
 }
 #page5-content h1{
   font-size: 3.5vw;
@@ -547,6 +554,10 @@ nav button svg {
 }
 summary ::marker{
   content: " ";
+}
+.product {
+  padding: 3vh 0;
+  border-top: 2px solid #333;
 }
 
 
