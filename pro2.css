@@ -470,7 +470,7 @@ nav button svg {
 }
 #page5-content h1{
   font-size: 3.5vw;
-  
+  font-weight: 400;
 }
 #page5-content #flex{
   display: flex;
@@ -546,7 +546,7 @@ nav button svg {
   background-color:#111;
 }
 summary ::marker{
-  
+  content: " ";
 }
 
 
