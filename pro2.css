@@ -554,7 +554,7 @@ summary ::marker{
   padding: 3vh 0;
   border-top: 2px solid #333;
 }
-
+        /*PAGE-6*/
 #page6{
   height: 100vh;
   width: 100%;
@@ -567,13 +567,30 @@ summary ::marker{
   /*background-color: red;*/
   padding-left: 25vw;
   line-height: 5.5vw;
-  padding-bottom: 6.5vh;
+  padding-bottom: 8vh;
   border-bottom: 1px solid #dadada;
   
 }
 h1{
   font-family: "Poppins", sans-serif;
 }
+#page6-content{
+ /* background-color: red;*/
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+#page6-content #right-6{
+  width:70%;
+}
+#page6-content #right-6 p{
+  font-size: 1.5vw;
+  color: #000;
+  margin-bottom: 5vh;
+  width: 80%;
+}
+
+
 
 
 
