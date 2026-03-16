@@ -23,7 +23,7 @@ nav {
     align-items: flex-start;
     justify-content: space-between;
     padding: 2vw 10.4vw;
-    background-color: #111;
+    background-color: #000000;
     z-index: 10;
 }
 
@@ -547,17 +547,32 @@ nav:hover #nav-bottom{
 .page5-elem:hover{
   border-top: 2px solid ;
 }
-#page6{
-  height: 100vh;
-  width: 100%;
-  background-color:#111;
-}
 summary ::marker{
   content: " ";
 }
 .product {
   padding: 3vh 0;
   border-top: 2px solid #333;
+}
+
+#page6{
+  height: 100vh;
+  width: 100%;
+  background-color:#ffffff;
+   padding: 5vh 10vw;
+}
+#page6>h1{
+  font-size: 5.5vw;
+  color: #000;
+  /*background-color: red;*/
+  padding-left: 25vw;
+  line-height: 5.5vw;
+  padding-bottom: 6.5vh;
+  border-bottom: 1px solid #dadada;
+  
+}
+h1{
+  font-family: "Poppins", sans-serif;
 }
 
 
