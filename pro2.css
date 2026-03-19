@@ -613,11 +613,11 @@ h1{
   font-weight: 100;
   margin-left: 1vw;
 }
-#page6-bottom{
+/*#page6-bottom{
   height: 40vh;
   width: 100%;
-  /*background-color: red;*/
-  border-top: 1px sold #dadada;
+  /*background-color: red;
+  border-top: 1px solid #dadada;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -627,31 +627,31 @@ h1{
   border-right: 1px solid #dadada;
   width: 30%;
   height: 100%;
-  background-color: red; /*time--3:57:30*/
+  background-color: red; 
 }
 #btm6-part2{
   border-right: 1px solid #dadada;
   width: 28%;
   height: 100%;
-  background-color: red; /*time--3:57:30*/
+  background-color: red; 
 }
 #btm6-part3{
   border-right: 1px solid #dadada;
   width: 15%;
   height: 100%;
-  background-color: red; /*time--3:57:30*/
+  background-color: red; 
 }
 #btm6-part4{
   border-right: 1px solid #dadada;
   width: 15%;
   height: 100%;
-  background-color: red; /*time--3:57:30*/
+  background-color: red; 
 }
 #btm6-part5{
   border-right: 1px solid #dadada;
   width: 28%;
   height: 100%;
-  background-color: red; /*time--3:57:30*/
+  background-color: red;
 }
 .btm6-parts{
   padding:3vh 0;
@@ -664,14 +664,86 @@ h1{
 }
 .btm6-parts h4{
   background-color: #111;
-  width: fit-content;
-  padding:5px 20px ;
+  width: 80%;
+  padding:5px 10px ;
+  margin-bottom: 0.7vh;
   border-radius: 50px;
+  font-size: 0.9vw;
+  font-weight: 500;
+  display: flex;
+  align-items:center ;
 }
-.btm6-parts h4{
-  
+.btm6-parts h4 span{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  width: 1.5vw;
+  height: 1.5vw;
+  background-color: #333;
+  padding: 0.5vw;
+  border-radius: 50%;
+  margin-right: 1vw;
+}*/
+
+#page6 {
+  padding: 80px 60px;
+  background-color: #fff;
 }
 
+#page6-bottom {
+  /*height: 28vh;*/
+  width: 80%;            /* 👈 reduce width */
+  margin: 0 auto;  
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-top: 60px;
+  background-color: red;
+}
+
+.btm6-parts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+#btm6-part1 {
+  border-left: none;
+}
+
+.btm6-parts h5 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btm6-parts h4 {
+  width: fit-content;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  width: fit-content;
+}
+
+.btm6-parts h4 span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  font-size: 12px;
+}
 
 
 
