@@ -685,6 +685,30 @@ h1{
   border-radius: 50%;
   margin-right: 1vw;
 }
+/*#btm6-part2 h4:nth-child(2){
+  transform:translateX(0);
+}
+#btm6-part2 h4:nth-child(3){
+  transform:translateX(10%);
+}
+#btm6-part2 h4:nth-child(4){
+  transform:translateX(20%);
+}
+#btm6-part2 h4:nth-child(5){
+  transform:translateX(30%);
+}
+#btm6-part2 h4:nth-child(6){
+  transform:translateX(40%);
+}
+#btm6-part2 h4:nth-child(7){
+  transform:translateX(50%);
+}*/
+
+   /*--page-7--*/
+#page7{
+  height: 100vw;
+  width:100vw;
+}
 /*
 #page6 {
   padding: 80px 60px;
