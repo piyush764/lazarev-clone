@@ -133,18 +133,19 @@ sections.forEach(function(elem){
 //   <---page6-animation--->
 //1. Register plugin
 gsap.registerPlugin(ScrollTrigger);
-
-gsap.from("#btm6-part2 h4",{
-    x:(i) => i*50,
+["#btm6-part2", "#btm6-part3", "#btm6-part4"].forEach((col, index) => {
+gsap.from(`${col} h4`,{
+    x:(i) => i*40,
+   // opacity:1,
     duration:1,
     scrollTrigger:{
-        trigger:"#btm6-part2",
-       // scroller:"body",
-        markers:true,
+        trigger:col,
+        markers:false,
         start:"top 80%",
         end:"top 20%",
         scrub:true
     }
+});
 });
 
 

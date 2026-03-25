@@ -161,7 +161,6 @@ nav:hover #nav-bottom{
   padding:2px;
 }
 #moving-div {
-  /*background-color: rgb(0, 77, 244);*/
   margin-top: 10vh;
   width: 40%;
   position: absolute;
@@ -191,63 +190,30 @@ nav:hover #nav-bottom{
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
-#blur-left{
-  height: 100%;
-  width :20%;
-  background:linear-gradient(to right,#000,transparent);
-  position: absolute;
-  top:0%;
-  left:0%;
-  z-index:2;
-  pointer-events: none;
-}
-#blur-right{
-  height: 100%;
-  width :20%;
-  background:linear-gradient(to left,#000,transparent);
-  position: absolute;
-  top:0%;
-  right:0%;
-  z-index:2;
-  pointer-events: none;
-}
-/*#moving-div {
-  background-color: rgb(193, 5, 5);
-  margin-top: 10vh;
-  width: 40%;
-  position: absolute;
-  bottom: 15%;
-  display:flex;
-  /*width:44%
-  white-space:nowrap;
-  padding:2vw;
-  overflow: hidden;
-  animation: ani 12s linear infinite;
-}*/
-/*#moving-div .move{
-  display:inline-block;
-    flex-shrink: 0;   
-  /*animation-name: mobe;
-  animation-duration: 5s;*/
- /* animation: ani 8s linear infinite;*/
-  /*animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  align-items: center;
 
-}*/
-/*#moving-div .move img{
-  height: 1.2vw;
-  margin:0.8vw;
+#blur-left {
+  height: 100%;
+  width: 20%;
+  background: linear-gradient(to right, #000, transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
 }
-@keyframes ani{
-  0%{
-    transform: translateX(0);
-  }
-  100%{
-    transform: translateX(-50%);
-  }
-}*/
-/* ================= PAGE 2 ================= */
+
+#blur-right {
+  height: 100%;
+  width: 20%;
+  background: linear-gradient(to left, #000, transparent);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  pointer-events: none; /* FIXED */
+}
+
+/* ================ PAGE 2 ================= */
 
 #page2{
   height: 100vh;
@@ -704,11 +670,6 @@ h1{
   transform:translateX(50%);
 }*/
 
-   /*--page-7--*/
-#page7{
-  height: 100vw;
-  width:100vw;
-}
 /*
 #page6 {
   padding: 80px 60px;
@@ -774,6 +735,12 @@ h1{
   font-size: 12px;
 }*/
 
+   /*--page-7--*/
+#page7{
+  height: 100vw;
+  width:100vw;
+  background-color: #000;
+}
 
 
 
