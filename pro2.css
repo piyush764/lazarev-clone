@@ -118,8 +118,6 @@ nav:hover #nav-bottom{
   align-items: center;
   justify-content: center;
   position: relative;
-  /*text-align: center;
-  padding-top: 5vw;*/
 }
 
 #page1 h1{
@@ -161,24 +159,28 @@ nav:hover #nav-bottom{
   padding:2px;
 }
 #moving-div {
-  margin-top: 10vh;
-  width: 40%;
-  position: absolute;
-  bottom: 15%;
+  width: 60%;
+  margin-top: 6vh;
   overflow: hidden;
-  padding: 2vw;
-  height:4vw;
+  padding: 1vw 0;
+  white-space: nowrap;
+  position: absolute;
 }
 
 .track {
+  position: relative;
+  z-index: 21;
   display: flex;
   width: max-content;
   animation: scroll 12s linear infinite;
 }
 
 .move {
-  display: flex;
-  flex-shrink: 0;
+    display: inline-block;
+    animation-name: mobe;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .move img {
