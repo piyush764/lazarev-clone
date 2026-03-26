@@ -154,6 +154,27 @@ function init() {
 // -------------------- RUN AFTER DOM LOAD --------------------
 document.addEventListener("DOMContentLoaded", init);
 
+var t1 = gsap.timeline()
+t1.from("#page1",{
+    opacity:0,duration:0.3,
+    delay:0.2
+})
+t1.from("#page1", { 
+    transform:"scaleX(0.7) scaleY(0.2) translateY(80%)" ,
+    borderRadius:"100px",
+    duration:2,
+    ease:"expo.out"
+})
+t1.from("nav",{
+    opacity:0,
+    delay:-0.2
+})
+t1.from("#page1 h1 ,#page1 p, #page1 div",{
+    opacity:0,
+    duration:0.5,
+    stagger:0.2
+})
+
 
 
 

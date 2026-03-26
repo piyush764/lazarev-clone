@@ -163,8 +163,9 @@ nav:hover #nav-bottom{
   margin-top: 6vh;
   overflow: hidden;
   padding: 1vw 0;
-  white-space: nowrap;
+  height: 80px;
   position: absolute;
+
 }
 
 .track {
@@ -176,16 +177,15 @@ nav:hover #nav-bottom{
 }
 
 .move {
-    display: inline-block;
-    animation-name: mobe;
-    animation-duration: 9s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  display: flex;
+  flex-shrink: 0;
 }
 
 .move img {
   height: 1.2vw;
   margin: 0 0.8vw;
+/*  border: 2px solid yellow;*/
+  filter: invert(1);
 }
 
 @keyframes scroll {
