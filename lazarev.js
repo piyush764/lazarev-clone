@@ -1,4 +1,3 @@
-// -------------------- LOCOMOTIVE + SCROLLTRIGGER SETUP --------------------
 function locomotiveAnimation() {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -31,7 +30,7 @@ function locomotiveAnimation() {
   ScrollTrigger.refresh();
 }
 
-// -------------------- NAV ANIMATION --------------------
+// ----- nav animation ----
 function navAnimation() {
   const nav = document.querySelector("nav");
 
@@ -50,12 +49,12 @@ function navAnimation() {
   });
 }
 
-// -------------------- RIGHT ELEMENT HOVER IMAGE --------------------
+// ---- Right elem image hover ----
 function rightElemAnimation() {
   const rightElems = document.querySelectorAll(".right-elem");
 
   rightElems.forEach((elem) => {
-    const img = elem.querySelector("img"); // safer than childNodes[3]
+    const img = elem.querySelector("img"); 
 
     elem.addEventListener("mouseenter", () => {
       gsap.to(img, { opacity: 1, scale: 1 });
@@ -75,7 +74,7 @@ function rightElemAnimation() {
   });
 }
 
-// -------------------- PAGE 3 VIDEO POPUP --------------------
+// ---- page3 popup of video  ----
 function page3VideoAnimation() {
   const page3Center = document.querySelector(".page3-center");
   const video = document.querySelector("#page3 video");
@@ -99,7 +98,7 @@ function page3VideoAnimation() {
   });
 }
 
-// -------------------- PAGE 4 VIDEO HOVER --------------------
+// ---- page4 Video Hover ----
 function page4VideoHover() {
   const sections = document.querySelectorAll(".sec-right");
 
@@ -124,7 +123,7 @@ function page4VideoHover() {
   });
 }
 
-// -------------------- PAGE 6 SCROLL ANIMATION --------------------
+// ----Page6 scroll animation ----
 function page6ScrollAnimation() {
   ["#btm6-part2", "#btm6-part3", "#btm6-part4"].forEach((col) => {
     gsap.from(`${col} h4`, {
@@ -132,7 +131,7 @@ function page6ScrollAnimation() {
       duration: 1,
       scrollTrigger: {
         trigger: col,
-        scroller: "#main", // REQUIRED for Locomotive
+        scroller: "#main", 
         start: "top 80%",
         end: "top 20%",
         scrub: true
@@ -141,7 +140,7 @@ function page6ScrollAnimation() {
   });
 }
 
-// -------------------- INIT ALL --------------------
+// ---- init all ----
 function init() {
   locomotiveAnimation();
   navAnimation();
@@ -151,7 +150,7 @@ function init() {
   page6ScrollAnimation();
 }
 
-// -------------------- RUN AFTER DOM LOAD --------------------
+// ---- DOM load runner ----
 document.addEventListener("DOMContentLoaded", init);
 
 var t1 = gsap.timeline()
